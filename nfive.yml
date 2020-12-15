@@ -1,0 +1,17 @@
+name: CRP/SurvivalBase
+version: 1.0.0
+description: CRP Survival Base
+author: CRP
+license: LGPL-3.0-or-later
+server:
+  main:
+    - CRP.SurvivalBase.Server
+  include:
+    - CRP.SurvivalBase.Shared
+client:
+  main:
+    - CRP.SurvivalBase.Client
+  include:
+    - CRP.SurvivalBase.Shared
+  files:
+    - Overlays/SurvivalBaseOverlay.html
